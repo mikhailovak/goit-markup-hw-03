@@ -37,6 +37,7 @@ a {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .nav {
@@ -86,9 +87,8 @@ a {
 }
 .address-menu {
     display: flex;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
     gap: 40px;
-    padding: 24px;
     
 }
 .address {
@@ -126,7 +126,7 @@ font-weight: 700;
     max-width: 496px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .button {
     font-weight: 500;
